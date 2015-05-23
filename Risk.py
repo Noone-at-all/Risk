@@ -22,5 +22,6 @@ class Board(object):
             for xxx in range(x):
                 for yyy in range(y):
                     Tiles[str(xxx), str(yyy)] = Tile([xxx, yyy])
+            return Tiles
         createTiles(self.width, self.height)
         
